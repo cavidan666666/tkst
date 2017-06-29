@@ -1,0 +1,94 @@
+body{
+	background: lightgray;
+	margin:0px;
+}
+.wrapper{
+	width:1000px;
+	margin: 0px auto;
+}
+
+.Header{
+
+	width: 100%;
+	height: 120px;
+    background: white; 
+
+}	
+.Nav{
+
+	width: 100%;
+	height:120px;
+	background: gray;
+
+}
+.Slide{
+
+	width: 100%;
+	height:500px;
+	background: darkgray;
+}
+
+.News{
+
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.NewsItem{
+
+ width:calc(33.33% - 30px);
+ margin: 20px 10px;
+ height: 180px;
+ background: green;
+ display:inline-block;
+
+}
+.Partner{
+
+	width: 100%;
+	background: gray;
+	text-align: center;
+
+}
+.partnerItems{
+
+	width: calc(50% - 30px);
+	margin:20px 10px;
+	height: 180px;
+	background: yellow;
+	display: inline-block;
+}
+
+.works{
+
+	width: 100%;
+	background: darkgray;
+
+}
+
+.worksItem{
+
+	width: calc(100% - 30px);
+	margin: 20px 10px;
+	height: 200px;
+	background: blue;
+	display: inline-block;
+
+}
+
+.footer{
+
+	width: 100%;
+	background: white;
+
+}
+
+.footerItem{
+
+	width: calc(100% - 30px);
+	margin: 20px 10px;
+	height: 300px;
+	background: brown;
+	display: inline-block;
+}
